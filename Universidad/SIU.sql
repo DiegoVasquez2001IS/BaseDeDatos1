@@ -103,7 +103,10 @@ CREATE TABLE jornadas
 (
 	codigo_jornada VARCHAR(5),
     nombre_jornada VARCHAR(45),
-    estatus_jornada VARCHAR(1),
+    horario_jornada TIME (45),
+    plan__jornada VARCHAR (45),
+    correo_jornada VARCHAR(45),
+    estatus_jornada TINYINT(1),
     PRIMARY KEY (codigo_jornada)
 ) ENGINE=INNODB DEFAULT CHARSET=latin1;
 -- -----------------------------------------------------

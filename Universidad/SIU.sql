@@ -1,3 +1,4 @@
+
 DROP DATABASE siu;
 CREATE DATABASE siu;
 USE siu;
@@ -77,7 +78,11 @@ CREATE TABLE sedes
 (
   codigo_sede VARCHAR(5),
   nombre_sede VARCHAR(45),
-  estatus_sede VARCHAR(1),
+  correo_sede VARCHAR(45),
+  dirreccion_sede VARCHAR(45),
+  horario_sede TIME(45),
+  telefono_sede VARCHAR(45),
+  estatus_sede TINYINT (1),
   PRIMARY KEY (codigo_sede)
 ) ENGINE = InnoDB DEFAULT CHARSET=latin1;
 -- -----------------------------------------------------

@@ -23,6 +23,10 @@ CREATE TABLE maestros
 (
   codigo_maestro VARCHAR(5),
   nombre_maestro VARCHAR(45),
+  apellido_maestro VARCHAR(45),
+  genero VARCHAR(45),
+  tipo_de_licenciatura VARCHAR(45),
+  cursos_de_profecion VARCHAR(45),
   direccion_maestro VARCHAR(45),
   telefono_maetro VARCHAR(45),
   email_maestro VARCHAR(20),

@@ -78,9 +78,9 @@ CREATE TABLE sedes
 (
   codigo_sede VARCHAR(5),
   nombre_sede VARCHAR(45),
-  correo_sede VARCHAR(5),
+  correo_sede VARCHAR(45),
   dirreccion_sede VARCHAR(45),
-  horario_sede VARCHAR(5),
+  horario_sede TIME(45),
   telefono_sede VARCHAR(45),
   estatus_sede TINYINT (1),
   PRIMARY KEY (codigo_sede)
